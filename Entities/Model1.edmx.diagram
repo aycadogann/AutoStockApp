@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1beae8ff698242d98acbdd8a770f1b08" Name="Diagram1">
+        <EntityTypeShape EntityType="AutoStockAppModel.Brands" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoStockAppModel.Colors" Width="1.5" PointX="3.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoStockAppModel.Customers" Width="1.5" PointX="3.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoStockAppModel.Employees" Width="1.5" PointX="8.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoStockAppModel.Locations" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoStockAppModel.Models" Width="1.5" PointX="3.75" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoStockAppModel.OrderDetails" Width="1.5" PointX="8.25" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoStockAppModel.Orders" Width="1.5" PointX="6" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoStockAppModel.Parts" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoStockAppModel.StockTransactions" Width="1.5" PointX="5.25" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoStockAppModel.Suppliers" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoStockAppModel.sysdiagrams" Width="1.5" PointX="8.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoStockAppModel.Vehicles" Width="1.5" PointX="6" PointY="6" IsExpanded="true" />
+        <AssociationConnector Association="AutoStockAppModel.FK_Vehicles_Brands" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoStockAppModel.FK_Vehicles_Colors" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoStockAppModel.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoStockAppModel.FK_Parts_Locations" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoStockAppModel.FK_Vehicles_Locations" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoStockAppModel.FK_Vehicles_Models" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoStockAppModel.FK_OrderDetails_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoStockAppModel.FK_OrderDetails_Orders1" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoStockAppModel.FK_OrderDetails_Parts" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoStockAppModel.FK_Orders_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoStockAppModel.FK_Parts_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoStockAppModel.FK_StockTransactions_Parts" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
