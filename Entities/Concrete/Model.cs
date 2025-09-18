@@ -12,5 +12,6 @@ namespace Entities.Concrete
         public int Id { get; set; }
         public string ModelName { get; set; }
         public List<Vehicle> Vehicles { get; set; }
+        public List<Brand> Brands { get; set; }
     }
 }

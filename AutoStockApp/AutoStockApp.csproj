@@ -56,16 +56,112 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AddCustomerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AddCustomerForm.Designer.cs">
+      <DependentUpon>AddCustomerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployeeForm.Designer.cs">
+      <DependentUpon>AddEmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLocationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLocationForm.Designer.cs">
+      <DependentUpon>AddLocationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BrandForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrandForm.Designer.cs">
+      <DependentUpon>BrandForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ColorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColorForm.Designer.cs">
+      <DependentUpon>ColorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LocationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocationForm.Designer.cs">
+      <DependentUpon>LocationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModelForm.Designer.cs">
+      <DependentUpon>ModelForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="RemoveCustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveCustomerForm.Designer.cs">
+      <DependentUpon>RemoveCustomerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveEmployeeForm.Designer.cs">
+      <DependentUpon>RemoveEmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateCustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateCustomerForm.Designer.cs">
+      <DependentUpon>UpdateCustomerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateEmployeeForm.Designer.cs">
+      <DependentUpon>UpdateEmployeeForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddCustomerForm.resx">
+      <DependentUpon>AddCustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployeeForm.resx">
+      <DependentUpon>AddEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLocationForm.resx">
+      <DependentUpon>AddLocationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BrandForm.resx">
+      <DependentUpon>BrandForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColorForm.resx">
+      <DependentUpon>ColorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocationForm.resx">
+      <DependentUpon>LocationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModelForm.resx">
+      <DependentUpon>ModelForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -76,6 +172,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RemoveCustomerForm.resx">
+      <DependentUpon>RemoveCustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveEmployeeForm.resx">
+      <DependentUpon>RemoveEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateCustomerForm.resx">
+      <DependentUpon>UpdateCustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateEmployeeForm.resx">
+      <DependentUpon>UpdateEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
