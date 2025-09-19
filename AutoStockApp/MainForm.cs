@@ -93,5 +93,26 @@ namespace AutoStockApp
             locationForm.MdiParent = this;
             locationForm.Show();
         }
+
+        private void ekleToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            frm_AddVehicleForm addVehicleForm = new frm_AddVehicleForm();
+            addVehicleForm.MdiParent = this;
+            addVehicleForm.Show();
+        }
+
+        private void düzenleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_UpdateVehicleForm updateVehicleForm = new frm_UpdateVehicleForm();
+            updateVehicleForm.MdiParent = this;
+            updateVehicleForm.Show();
+        }
+
+        private void silToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            frm_RemoveVehicleForm removeVehicleForm = new frm_RemoveVehicleForm();
+            removeVehicleForm.MdiParent = this;
+            removeVehicleForm.Show();
+        }
     }
 }

@@ -33,10 +33,10 @@ namespace AutoStockApp
             this.btn_Delete = new System.Windows.Forms.Button();
             this.btn_Update = new System.Windows.Forms.Button();
             this.btn_Add = new System.Windows.Forms.Button();
-            this.txt_ModelBrandName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_ModelName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.cmb_ModelBrand = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgw_Model)).BeginInit();
             this.SuspendLayout();
             // 
@@ -80,14 +80,6 @@ namespace AutoStockApp
             this.btn_Add.Text = "Ekle";
             this.btn_Add.UseVisualStyleBackColor = true;
             // 
-            // txt_ModelBrandName
-            // 
-            this.txt_ModelBrandName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_ModelBrandName.Location = new System.Drawing.Point(91, 16);
-            this.txt_ModelBrandName.Name = "txt_ModelBrandName";
-            this.txt_ModelBrandName.Size = new System.Drawing.Size(217, 30);
-            this.txt_ModelBrandName.TabIndex = 13;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -101,7 +93,7 @@ namespace AutoStockApp
             // txt_ModelName
             // 
             this.txt_ModelName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_ModelName.Location = new System.Drawing.Point(91, 52);
+            this.txt_ModelName.Location = new System.Drawing.Point(91, 57);
             this.txt_ModelName.Name = "txt_ModelName";
             this.txt_ModelName.Size = new System.Drawing.Size(217, 30);
             this.txt_ModelName.TabIndex = 19;
@@ -110,11 +102,20 @@ namespace AutoStockApp
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(13, 52);
+            this.label2.Location = new System.Drawing.Point(13, 57);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 25);
             this.label2.TabIndex = 18;
             this.label2.Text = "Model:";
+            // 
+            // cmb_ModelBrand
+            // 
+            this.cmb_ModelBrand.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmb_ModelBrand.FormattingEnabled = true;
+            this.cmb_ModelBrand.Location = new System.Drawing.Point(91, 16);
+            this.cmb_ModelBrand.Name = "cmb_ModelBrand";
+            this.cmb_ModelBrand.Size = new System.Drawing.Size(217, 33);
+            this.cmb_ModelBrand.TabIndex = 20;
             // 
             // frm_ModelForm
             // 
@@ -122,13 +123,13 @@ namespace AutoStockApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(548, 379);
+            this.Controls.Add(this.cmb_ModelBrand);
             this.Controls.Add(this.txt_ModelName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dgw_Model);
             this.Controls.Add(this.btn_Delete);
             this.Controls.Add(this.btn_Update);
             this.Controls.Add(this.btn_Add);
-            this.Controls.Add(this.txt_ModelBrandName);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frm_ModelForm";
@@ -145,9 +146,9 @@ namespace AutoStockApp
         private System.Windows.Forms.Button btn_Delete;
         private System.Windows.Forms.Button btn_Update;
         private System.Windows.Forms.Button btn_Add;
-        private System.Windows.Forms.TextBox txt_ModelBrandName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_ModelName;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox cmb_ModelBrand;
     }
 }

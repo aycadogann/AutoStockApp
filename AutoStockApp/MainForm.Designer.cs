@@ -48,6 +48,8 @@ namespace AutoStockApp
             this.güncelleSilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.silToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lokasyonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lokasyonGörüntüleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lokasyonEkleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.işlemlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.siparişToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.siparişDüzenleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,8 +65,6 @@ namespace AutoStockApp
             this.silToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.lokasyonGörüntüleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lokasyonEkleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -107,26 +107,29 @@ namespace AutoStockApp
             this.düzenleToolStripMenuItem,
             this.silToolStripMenuItem2});
             this.araçToolStripMenuItem.Name = "araçToolStripMenuItem";
-            this.araçToolStripMenuItem.Size = new System.Drawing.Size(155, 32);
+            this.araçToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
             this.araçToolStripMenuItem.Text = "Araç";
             // 
             // ekleToolStripMenuItem2
             // 
             this.ekleToolStripMenuItem2.Name = "ekleToolStripMenuItem2";
-            this.ekleToolStripMenuItem2.Size = new System.Drawing.Size(168, 32);
+            this.ekleToolStripMenuItem2.Size = new System.Drawing.Size(224, 32);
             this.ekleToolStripMenuItem2.Text = "Ekle";
+            this.ekleToolStripMenuItem2.Click += new System.EventHandler(this.ekleToolStripMenuItem2_Click);
             // 
             // düzenleToolStripMenuItem
             // 
             this.düzenleToolStripMenuItem.Name = "düzenleToolStripMenuItem";
-            this.düzenleToolStripMenuItem.Size = new System.Drawing.Size(168, 32);
+            this.düzenleToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
             this.düzenleToolStripMenuItem.Text = "Düzenle";
+            this.düzenleToolStripMenuItem.Click += new System.EventHandler(this.düzenleToolStripMenuItem_Click);
             // 
             // silToolStripMenuItem2
             // 
             this.silToolStripMenuItem2.Name = "silToolStripMenuItem2";
-            this.silToolStripMenuItem2.Size = new System.Drawing.Size(168, 32);
+            this.silToolStripMenuItem2.Size = new System.Drawing.Size(224, 32);
             this.silToolStripMenuItem2.Text = "Sil";
+            this.silToolStripMenuItem2.Click += new System.EventHandler(this.silToolStripMenuItem2_Click);
             // 
             // parçaToolStripMenuItem
             // 
@@ -135,7 +138,7 @@ namespace AutoStockApp
             this.düzenleSilToolStripMenuItem,
             this.silToolStripMenuItem3});
             this.parçaToolStripMenuItem.Name = "parçaToolStripMenuItem";
-            this.parçaToolStripMenuItem.Size = new System.Drawing.Size(155, 32);
+            this.parçaToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
             this.parçaToolStripMenuItem.Text = "Parça";
             // 
             // ekleToolStripMenuItem3
@@ -159,21 +162,21 @@ namespace AutoStockApp
             // markaToolStripMenuItem1
             // 
             this.markaToolStripMenuItem1.Name = "markaToolStripMenuItem1";
-            this.markaToolStripMenuItem1.Size = new System.Drawing.Size(155, 32);
+            this.markaToolStripMenuItem1.Size = new System.Drawing.Size(224, 32);
             this.markaToolStripMenuItem1.Text = "Marka";
             this.markaToolStripMenuItem1.Click += new System.EventHandler(this.markaToolStripMenuItem1_Click);
             // 
             // modelToolStripMenuItem
             // 
             this.modelToolStripMenuItem.Name = "modelToolStripMenuItem";
-            this.modelToolStripMenuItem.Size = new System.Drawing.Size(155, 32);
+            this.modelToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
             this.modelToolStripMenuItem.Text = "Model";
             this.modelToolStripMenuItem.Click += new System.EventHandler(this.modelToolStripMenuItem_Click);
             // 
             // renkToolStripMenuItem
             // 
             this.renkToolStripMenuItem.Name = "renkToolStripMenuItem";
-            this.renkToolStripMenuItem.Size = new System.Drawing.Size(155, 32);
+            this.renkToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
             this.renkToolStripMenuItem.Text = "Renk";
             this.renkToolStripMenuItem.Click += new System.EventHandler(this.renkToolStripMenuItem_Click);
             // 
@@ -196,21 +199,21 @@ namespace AutoStockApp
             // ekleToolStripMenuItem
             // 
             this.ekleToolStripMenuItem.Name = "ekleToolStripMenuItem";
-            this.ekleToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
+            this.ekleToolStripMenuItem.Size = new System.Drawing.Size(178, 32);
             this.ekleToolStripMenuItem.Text = "Ekle";
             this.ekleToolStripMenuItem.Click += new System.EventHandler(this.ekleToolStripMenuItem_Click);
             // 
             // güncelleSilToolStripMenuItem
             // 
             this.güncelleSilToolStripMenuItem.Name = "güncelleSilToolStripMenuItem";
-            this.güncelleSilToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
+            this.güncelleSilToolStripMenuItem.Size = new System.Drawing.Size(178, 32);
             this.güncelleSilToolStripMenuItem.Text = "Güncelle ";
             this.güncelleSilToolStripMenuItem.Click += new System.EventHandler(this.güncelleSilToolStripMenuItem_Click);
             // 
             // silToolStripMenuItem
             // 
             this.silToolStripMenuItem.Name = "silToolStripMenuItem";
-            this.silToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
+            this.silToolStripMenuItem.Size = new System.Drawing.Size(178, 32);
             this.silToolStripMenuItem.Text = "Sil";
             this.silToolStripMenuItem.Click += new System.EventHandler(this.silToolStripMenuItem_Click);
             // 
@@ -222,6 +225,20 @@ namespace AutoStockApp
             this.lokasyonToolStripMenuItem.Name = "lokasyonToolStripMenuItem";
             this.lokasyonToolStripMenuItem.Size = new System.Drawing.Size(108, 32);
             this.lokasyonToolStripMenuItem.Text = "Lokasyon";
+            // 
+            // lokasyonGörüntüleToolStripMenuItem
+            // 
+            this.lokasyonGörüntüleToolStripMenuItem.Name = "lokasyonGörüntüleToolStripMenuItem";
+            this.lokasyonGörüntüleToolStripMenuItem.Size = new System.Drawing.Size(273, 32);
+            this.lokasyonGörüntüleToolStripMenuItem.Text = "Lokasyon Görüntüle";
+            this.lokasyonGörüntüleToolStripMenuItem.Click += new System.EventHandler(this.lokasyonGörüntüleToolStripMenuItem_Click);
+            // 
+            // lokasyonEkleToolStripMenuItem
+            // 
+            this.lokasyonEkleToolStripMenuItem.Name = "lokasyonEkleToolStripMenuItem";
+            this.lokasyonEkleToolStripMenuItem.Size = new System.Drawing.Size(273, 32);
+            this.lokasyonEkleToolStripMenuItem.Text = "Lokasyon Ekle";
+            this.lokasyonEkleToolStripMenuItem.Click += new System.EventHandler(this.lokasyonEkleToolStripMenuItem_Click);
             // 
             // işlemlerToolStripMenuItem
             // 
@@ -299,21 +316,21 @@ namespace AutoStockApp
             // ekleToolStripMenuItem1
             // 
             this.ekleToolStripMenuItem1.Name = "ekleToolStripMenuItem1";
-            this.ekleToolStripMenuItem1.Size = new System.Drawing.Size(224, 32);
+            this.ekleToolStripMenuItem1.Size = new System.Drawing.Size(173, 32);
             this.ekleToolStripMenuItem1.Text = "Ekle";
             this.ekleToolStripMenuItem1.Click += new System.EventHandler(this.ekleToolStripMenuItem1_Click);
             // 
             // güncelleSilToolStripMenuItem1
             // 
             this.güncelleSilToolStripMenuItem1.Name = "güncelleSilToolStripMenuItem1";
-            this.güncelleSilToolStripMenuItem1.Size = new System.Drawing.Size(224, 32);
+            this.güncelleSilToolStripMenuItem1.Size = new System.Drawing.Size(173, 32);
             this.güncelleSilToolStripMenuItem1.Text = "Güncelle";
             this.güncelleSilToolStripMenuItem1.Click += new System.EventHandler(this.güncelleSilToolStripMenuItem1_Click);
             // 
             // silToolStripMenuItem1
             // 
             this.silToolStripMenuItem1.Name = "silToolStripMenuItem1";
-            this.silToolStripMenuItem1.Size = new System.Drawing.Size(224, 32);
+            this.silToolStripMenuItem1.Size = new System.Drawing.Size(173, 32);
             this.silToolStripMenuItem1.Text = "Sil";
             this.silToolStripMenuItem1.Click += new System.EventHandler(this.silToolStripMenuItem1_Click);
             // 
@@ -334,20 +351,6 @@ namespace AutoStockApp
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(151, 20);
             this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
-            // 
-            // lokasyonGörüntüleToolStripMenuItem
-            // 
-            this.lokasyonGörüntüleToolStripMenuItem.Name = "lokasyonGörüntüleToolStripMenuItem";
-            this.lokasyonGörüntüleToolStripMenuItem.Size = new System.Drawing.Size(273, 32);
-            this.lokasyonGörüntüleToolStripMenuItem.Text = "Lokasyon Görüntüle";
-            this.lokasyonGörüntüleToolStripMenuItem.Click += new System.EventHandler(this.lokasyonGörüntüleToolStripMenuItem_Click);
-            // 
-            // lokasyonEkleToolStripMenuItem
-            // 
-            this.lokasyonEkleToolStripMenuItem.Name = "lokasyonEkleToolStripMenuItem";
-            this.lokasyonEkleToolStripMenuItem.Size = new System.Drawing.Size(273, 32);
-            this.lokasyonEkleToolStripMenuItem.Text = "Lokasyon Ekle";
-            this.lokasyonEkleToolStripMenuItem.Click += new System.EventHandler(this.lokasyonEkleToolStripMenuItem_Click);
             // 
             // frm_MainForm
             // 
