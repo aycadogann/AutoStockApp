@@ -53,6 +53,7 @@
     <Compile Include="Abstract\IBrandDal.cs" />
     <Compile Include="Abstract\IColorDal.cs" />
     <Compile Include="Abstract\IGenericDal.cs" />
+    <Compile Include="Abstract\IModelDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfBrandDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfColorDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfModelDal.cs" />

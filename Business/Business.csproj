@@ -77,6 +77,7 @@
     <Compile Include="Abstract\IBrandService.cs" />
     <Compile Include="Abstract\IColorService.cs" />
     <Compile Include="Abstract\IGenericService.cs" />
+    <Compile Include="Abstract\IModelService.cs" />
     <Compile Include="Concrete\BrandManager.cs" />
     <Compile Include="Concrete\ColorManager.cs" />
     <Compile Include="Concrete\ModelManager.cs" />

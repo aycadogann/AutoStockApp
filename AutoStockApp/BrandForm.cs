@@ -64,8 +64,6 @@ namespace AutoStockApp
             MessageBox.Show("Marka güncellendi!");
             ListBrand();
             txt_BrandName.Clear();
-
-
         }
 
         private void dgw_Brand_CellDoubleClick(object sender, DataGridViewCellEventArgs e)

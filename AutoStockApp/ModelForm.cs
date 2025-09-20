@@ -1,4 +1,7 @@
-﻿using Entities;
+﻿using Business.Abstract;
+using Business.Concrete;
+using DataAccess.Concrete.EntityFramework;
+using Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,23 +16,34 @@ namespace AutoStockApp
 {
     public partial class frm_ModelForm : Form
     {
-        AutoStockAppEntities db = new AutoStockAppEntities();
+        private readonly IModelService _modelService;
         public frm_ModelForm()
         {
+            _modelService = new ModelManager(new EfModelDal());
             InitializeComponent();
+
         }
 
+        public void ListModel()
+        {
+            dgw_Model.DataSource = _modelService.GetAll().Select(m => new
+            {
+                Id = m.Id,
+                Marka = m.Brand.BrandName,
+                ModelAdı = m.ModelName
+            }).ToList();
+        }
         private void frm_ModelForm_Load(object sender, EventArgs e)
         {
-            //dgw_Model.DataSource = db.Models.ToList();
+            ListModel();
 
-            var data = db.Models.Select(m => new
-            {
-                Id=m.Id,
-                Marka=m.Brand.BrandName,
-                ModelAdı=m.ModelName
-            }).ToList();
-            dgw_Model.DataSource = data;
+            var brand = from item in _modelService.GetAll()
+                        select new { item.BrandId, item.Brand.BrandName };
+            cmb_ModelBrand.DataSource = brand.Distinct().ToList();
+            cmb_ModelBrand.DisplayMember = "BrandName";
+            cmb_ModelBrand.ValueMember = "BrandId";
+            
+            
         }
     }
 }
