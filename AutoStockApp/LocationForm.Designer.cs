@@ -33,8 +33,8 @@ namespace AutoStockApp
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dgw_Location = new System.Windows.Forms.DataGridView();
             this.grb_Location = new System.Windows.Forms.GroupBox();
-            this.chb_Part = new System.Windows.Forms.CheckBox();
             this.chb_Vehicle = new System.Windows.Forms.CheckBox();
+            this.chb_Part = new System.Windows.Forms.CheckBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_SearchLocation = new System.Windows.Forms.Button();
@@ -62,12 +62,14 @@ namespace AutoStockApp
             // 
             // dgw_Location
             // 
+            this.dgw_Location.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgw_Location.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgw_Location.Location = new System.Drawing.Point(12, 188);
+            this.dgw_Location.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgw_Location.Location = new System.Drawing.Point(0, 212);
             this.dgw_Location.Name = "dgw_Location";
             this.dgw_Location.RowHeadersWidth = 51;
             this.dgw_Location.RowTemplate.Height = 24;
-            this.dgw_Location.Size = new System.Drawing.Size(776, 238);
+            this.dgw_Location.Size = new System.Drawing.Size(800, 238);
             this.dgw_Location.TabIndex = 2;
             // 
             // grb_Location
@@ -80,17 +82,6 @@ namespace AutoStockApp
             this.grb_Location.TabIndex = 3;
             this.grb_Location.TabStop = false;
             // 
-            // chb_Part
-            // 
-            this.chb_Part.AutoSize = true;
-            this.chb_Part.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.chb_Part.Location = new System.Drawing.Point(27, 21);
-            this.chb_Part.Name = "chb_Part";
-            this.chb_Part.Size = new System.Drawing.Size(190, 29);
-            this.chb_Part.TabIndex = 0;
-            this.chb_Part.Text = "Parçaya Göre Ara";
-            this.chb_Part.UseVisualStyleBackColor = true;
-            // 
             // chb_Vehicle
             // 
             this.chb_Vehicle.AutoSize = true;
@@ -101,6 +92,17 @@ namespace AutoStockApp
             this.chb_Vehicle.TabIndex = 1;
             this.chb_Vehicle.Text = "Araca Göre Ara";
             this.chb_Vehicle.UseVisualStyleBackColor = true;
+            // 
+            // chb_Part
+            // 
+            this.chb_Part.AutoSize = true;
+            this.chb_Part.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.chb_Part.Location = new System.Drawing.Point(27, 21);
+            this.chb_Part.Name = "chb_Part";
+            this.chb_Part.Size = new System.Drawing.Size(190, 29);
+            this.chb_Part.TabIndex = 0;
+            this.chb_Part.Text = "Parçaya Göre Ara";
+            this.chb_Part.UseVisualStyleBackColor = true;
             // 
             // textBox2
             // 

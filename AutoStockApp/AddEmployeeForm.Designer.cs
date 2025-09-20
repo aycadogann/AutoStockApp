@@ -104,12 +104,14 @@ namespace AutoStockApp
             // 
             // dgw_AddEmployee
             // 
+            this.dgw_AddEmployee.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgw_AddEmployee.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgw_AddEmployee.Location = new System.Drawing.Point(19, 204);
+            this.dgw_AddEmployee.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgw_AddEmployee.Location = new System.Drawing.Point(0, 221);
             this.dgw_AddEmployee.Name = "dgw_AddEmployee";
             this.dgw_AddEmployee.RowHeadersWidth = 51;
             this.dgw_AddEmployee.RowTemplate.Height = 24;
-            this.dgw_AddEmployee.Size = new System.Drawing.Size(750, 244);
+            this.dgw_AddEmployee.Size = new System.Drawing.Size(791, 244);
             this.dgw_AddEmployee.TabIndex = 50;
             // 
             // btn_AddEmployee

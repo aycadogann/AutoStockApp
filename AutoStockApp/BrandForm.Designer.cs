@@ -40,13 +40,16 @@ namespace AutoStockApp
             // 
             // dgw_Brand
             // 
+            this.dgw_Brand.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgw_Brand.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgw_Brand.Location = new System.Drawing.Point(12, 133);
+            this.dgw_Brand.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgw_Brand.Location = new System.Drawing.Point(0, 148);
             this.dgw_Brand.Name = "dgw_Brand";
             this.dgw_Brand.RowHeadersWidth = 51;
             this.dgw_Brand.RowTemplate.Height = 24;
-            this.dgw_Brand.Size = new System.Drawing.Size(408, 210);
+            this.dgw_Brand.Size = new System.Drawing.Size(441, 210);
             this.dgw_Brand.TabIndex = 11;
+            this.dgw_Brand.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgw_Brand_CellDoubleClick);
             // 
             // btn_Delete
             // 
@@ -57,6 +60,7 @@ namespace AutoStockApp
             this.btn_Delete.TabIndex = 10;
             this.btn_Delete.Text = "Sil";
             this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // btn_Update
             // 
@@ -67,6 +71,7 @@ namespace AutoStockApp
             this.btn_Update.TabIndex = 9;
             this.btn_Update.Text = "Güncelle";
             this.btn_Update.UseVisualStyleBackColor = true;
+            this.btn_Update.Click += new System.EventHandler(this.btn_Update_Click);
             // 
             // btn_Add
             // 
@@ -77,6 +82,7 @@ namespace AutoStockApp
             this.btn_Add.TabIndex = 8;
             this.btn_Add.Text = "Ekle";
             this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // txt_BrandName
             // 
@@ -111,6 +117,7 @@ namespace AutoStockApp
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frm_BrandForm";
             this.Text = "Marka Paneli";
+            this.Load += new System.EventHandler(this.frm_BrandForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgw_Brand)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

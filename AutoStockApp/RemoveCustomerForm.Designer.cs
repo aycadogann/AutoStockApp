@@ -78,12 +78,14 @@ namespace AutoStockApp
             // 
             // dgw_RemoveCustomer
             // 
+            this.dgw_RemoveCustomer.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgw_RemoveCustomer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgw_RemoveCustomer.Location = new System.Drawing.Point(18, 152);
+            this.dgw_RemoveCustomer.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgw_RemoveCustomer.Location = new System.Drawing.Point(0, 181);
             this.dgw_RemoveCustomer.Name = "dgw_RemoveCustomer";
             this.dgw_RemoveCustomer.RowHeadersWidth = 51;
             this.dgw_RemoveCustomer.RowTemplate.Height = 24;
-            this.dgw_RemoveCustomer.Size = new System.Drawing.Size(750, 244);
+            this.dgw_RemoveCustomer.Size = new System.Drawing.Size(787, 244);
             this.dgw_RemoveCustomer.TabIndex = 45;
             // 
             // btn_DeleteCustomer

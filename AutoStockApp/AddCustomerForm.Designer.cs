@@ -119,12 +119,14 @@ namespace AutoStockApp
             // 
             // dgw_AddCustomer
             // 
+            this.dgw_AddCustomer.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgw_AddCustomer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgw_AddCustomer.Location = new System.Drawing.Point(12, 210);
+            this.dgw_AddCustomer.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgw_AddCustomer.Location = new System.Drawing.Point(0, 251);
             this.dgw_AddCustomer.Name = "dgw_AddCustomer";
             this.dgw_AddCustomer.RowHeadersWidth = 51;
             this.dgw_AddCustomer.RowTemplate.Height = 24;
-            this.dgw_AddCustomer.Size = new System.Drawing.Size(750, 244);
+            this.dgw_AddCustomer.Size = new System.Drawing.Size(792, 244);
             this.dgw_AddCustomer.TabIndex = 38;
             // 
             // btn_AddCustomer

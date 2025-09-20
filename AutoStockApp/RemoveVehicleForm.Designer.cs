@@ -190,12 +190,14 @@ namespace AutoStockApp
             // 
             // dgw_RemoveVehicle
             // 
+            this.dgw_RemoveVehicle.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgw_RemoveVehicle.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgw_RemoveVehicle.Location = new System.Drawing.Point(12, 185);
+            this.dgw_RemoveVehicle.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgw_RemoveVehicle.Location = new System.Drawing.Point(0, 205);
             this.dgw_RemoveVehicle.Name = "dgw_RemoveVehicle";
             this.dgw_RemoveVehicle.RowHeadersWidth = 51;
             this.dgw_RemoveVehicle.RowTemplate.Height = 24;
-            this.dgw_RemoveVehicle.Size = new System.Drawing.Size(1210, 294);
+            this.dgw_RemoveVehicle.Size = new System.Drawing.Size(1236, 294);
             this.dgw_RemoveVehicle.TabIndex = 68;
             // 
             // frm_RemoveVehicleForm

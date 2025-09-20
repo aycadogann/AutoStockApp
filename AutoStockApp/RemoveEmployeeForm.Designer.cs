@@ -73,12 +73,14 @@ namespace AutoStockApp
             // 
             // dgw_RemoveEmployee
             // 
+            this.dgw_RemoveEmployee.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgw_RemoveEmployee.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgw_RemoveEmployee.Location = new System.Drawing.Point(12, 151);
+            this.dgw_RemoveEmployee.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgw_RemoveEmployee.Location = new System.Drawing.Point(0, 182);
             this.dgw_RemoveEmployee.Name = "dgw_RemoveEmployee";
             this.dgw_RemoveEmployee.RowHeadersWidth = 51;
             this.dgw_RemoveEmployee.RowTemplate.Height = 24;
-            this.dgw_RemoveEmployee.Size = new System.Drawing.Size(750, 244);
+            this.dgw_RemoveEmployee.Size = new System.Drawing.Size(790, 244);
             this.dgw_RemoveEmployee.TabIndex = 53;
             // 
             // txt_RemoveEmployeeLastName

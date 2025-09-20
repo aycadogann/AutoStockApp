@@ -42,12 +42,14 @@ namespace AutoStockApp
             // 
             // dgw_Model
             // 
+            this.dgw_Model.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgw_Model.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgw_Model.Location = new System.Drawing.Point(12, 157);
+            this.dgw_Model.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgw_Model.Location = new System.Drawing.Point(0, 169);
             this.dgw_Model.Name = "dgw_Model";
             this.dgw_Model.RowHeadersWidth = 51;
             this.dgw_Model.RowTemplate.Height = 24;
-            this.dgw_Model.Size = new System.Drawing.Size(515, 210);
+            this.dgw_Model.Size = new System.Drawing.Size(548, 210);
             this.dgw_Model.TabIndex = 17;
             // 
             // btn_Delete
@@ -134,6 +136,7 @@ namespace AutoStockApp
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frm_ModelForm";
             this.Text = "Model Paneli";
+            this.Load += new System.EventHandler(this.frm_ModelForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgw_Model)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

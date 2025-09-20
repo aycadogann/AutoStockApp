@@ -242,12 +242,14 @@ namespace AutoStockApp
             // 
             // dgw_UpdateVehicle
             // 
+            this.dgw_UpdateVehicle.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgw_UpdateVehicle.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgw_UpdateVehicle.Location = new System.Drawing.Point(12, 227);
+            this.dgw_UpdateVehicle.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgw_UpdateVehicle.Location = new System.Drawing.Point(0, 249);
             this.dgw_UpdateVehicle.Name = "dgw_UpdateVehicle";
             this.dgw_UpdateVehicle.RowHeadersWidth = 51;
             this.dgw_UpdateVehicle.RowTemplate.Height = 24;
-            this.dgw_UpdateVehicle.Size = new System.Drawing.Size(1286, 294);
+            this.dgw_UpdateVehicle.Size = new System.Drawing.Size(1310, 294);
             this.dgw_UpdateVehicle.TabIndex = 41;
             // 
             // btn_UpdateVehicle
