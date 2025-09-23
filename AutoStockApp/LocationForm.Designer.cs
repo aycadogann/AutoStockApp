@@ -148,6 +148,7 @@ namespace AutoStockApp
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frm_LocationForm";
             this.Text = "Lokasyon Paneli";
+            this.Load += new System.EventHandler(this.frm_LocationForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgw_Location)).EndInit();
             this.grb_Location.ResumeLayout(false);
             this.grb_Location.PerformLayout();
