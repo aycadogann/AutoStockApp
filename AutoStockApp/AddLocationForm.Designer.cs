@@ -81,6 +81,7 @@ namespace AutoStockApp
             this.btn_AddLocation.TabIndex = 11;
             this.btn_AddLocation.Text = "Ekle";
             this.btn_AddLocation.UseVisualStyleBackColor = true;
+            this.btn_AddLocation.Click += new System.EventHandler(this.btn_AddLocation_Click);
             // 
             // frm_AddLocationForm
             // 
