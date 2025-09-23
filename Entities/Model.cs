@@ -22,7 +22,7 @@ namespace Entities
         }
     
         public int Id { get; set; }
-        public Nullable<int> BrandId { get; set; }
+        public Nullable<int> BrandId { get; set; } //todo : nullable kaldýrýlacak, migration ile
         public string ModelName { get; set; }
     
         public virtual Brand Brand { get; set; }
