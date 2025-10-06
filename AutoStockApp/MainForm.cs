@@ -115,5 +115,12 @@ namespace AutoStockApp
             removeVehicleForm.MdiParent = this;
             removeVehicleForm.Show();
         }
+
+        private void ekleToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            frm_AddPartForm addPartForm = new frm_AddPartForm();
+            addPartForm.MdiParent = this;
+            addPartForm.Show();
+        }
     }
 }

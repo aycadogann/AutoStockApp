@@ -113,21 +113,21 @@ namespace AutoStockApp
             // ekleToolStripMenuItem2
             // 
             this.ekleToolStripMenuItem2.Name = "ekleToolStripMenuItem2";
-            this.ekleToolStripMenuItem2.Size = new System.Drawing.Size(224, 32);
+            this.ekleToolStripMenuItem2.Size = new System.Drawing.Size(168, 32);
             this.ekleToolStripMenuItem2.Text = "Ekle";
             this.ekleToolStripMenuItem2.Click += new System.EventHandler(this.ekleToolStripMenuItem2_Click);
             // 
             // düzenleToolStripMenuItem
             // 
             this.düzenleToolStripMenuItem.Name = "düzenleToolStripMenuItem";
-            this.düzenleToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
+            this.düzenleToolStripMenuItem.Size = new System.Drawing.Size(168, 32);
             this.düzenleToolStripMenuItem.Text = "Düzenle";
             this.düzenleToolStripMenuItem.Click += new System.EventHandler(this.düzenleToolStripMenuItem_Click);
             // 
             // silToolStripMenuItem2
             // 
             this.silToolStripMenuItem2.Name = "silToolStripMenuItem2";
-            this.silToolStripMenuItem2.Size = new System.Drawing.Size(224, 32);
+            this.silToolStripMenuItem2.Size = new System.Drawing.Size(168, 32);
             this.silToolStripMenuItem2.Text = "Sil";
             this.silToolStripMenuItem2.Click += new System.EventHandler(this.silToolStripMenuItem2_Click);
             // 
@@ -144,19 +144,20 @@ namespace AutoStockApp
             // ekleToolStripMenuItem3
             // 
             this.ekleToolStripMenuItem3.Name = "ekleToolStripMenuItem3";
-            this.ekleToolStripMenuItem3.Size = new System.Drawing.Size(168, 32);
+            this.ekleToolStripMenuItem3.Size = new System.Drawing.Size(224, 32);
             this.ekleToolStripMenuItem3.Text = "Ekle";
+            this.ekleToolStripMenuItem3.Click += new System.EventHandler(this.ekleToolStripMenuItem3_Click);
             // 
             // düzenleSilToolStripMenuItem
             // 
             this.düzenleSilToolStripMenuItem.Name = "düzenleSilToolStripMenuItem";
-            this.düzenleSilToolStripMenuItem.Size = new System.Drawing.Size(168, 32);
+            this.düzenleSilToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
             this.düzenleSilToolStripMenuItem.Text = "Düzenle";
             // 
             // silToolStripMenuItem3
             // 
             this.silToolStripMenuItem3.Name = "silToolStripMenuItem3";
-            this.silToolStripMenuItem3.Size = new System.Drawing.Size(168, 32);
+            this.silToolStripMenuItem3.Size = new System.Drawing.Size(224, 32);
             this.silToolStripMenuItem3.Text = "Sil";
             // 
             // markaToolStripMenuItem1
@@ -316,21 +317,21 @@ namespace AutoStockApp
             // ekleToolStripMenuItem1
             // 
             this.ekleToolStripMenuItem1.Name = "ekleToolStripMenuItem1";
-            this.ekleToolStripMenuItem1.Size = new System.Drawing.Size(173, 32);
+            this.ekleToolStripMenuItem1.Size = new System.Drawing.Size(224, 32);
             this.ekleToolStripMenuItem1.Text = "Ekle";
             this.ekleToolStripMenuItem1.Click += new System.EventHandler(this.ekleToolStripMenuItem1_Click);
             // 
             // güncelleSilToolStripMenuItem1
             // 
             this.güncelleSilToolStripMenuItem1.Name = "güncelleSilToolStripMenuItem1";
-            this.güncelleSilToolStripMenuItem1.Size = new System.Drawing.Size(173, 32);
+            this.güncelleSilToolStripMenuItem1.Size = new System.Drawing.Size(224, 32);
             this.güncelleSilToolStripMenuItem1.Text = "Güncelle";
             this.güncelleSilToolStripMenuItem1.Click += new System.EventHandler(this.güncelleSilToolStripMenuItem1_Click);
             // 
             // silToolStripMenuItem1
             // 
             this.silToolStripMenuItem1.Name = "silToolStripMenuItem1";
-            this.silToolStripMenuItem1.Size = new System.Drawing.Size(173, 32);
+            this.silToolStripMenuItem1.Size = new System.Drawing.Size(224, 32);
             this.silToolStripMenuItem1.Text = "Sil";
             this.silToolStripMenuItem1.Click += new System.EventHandler(this.silToolStripMenuItem1_Click);
             // 
