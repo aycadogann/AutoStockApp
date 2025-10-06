@@ -153,6 +153,7 @@ namespace AutoStockApp
             this.düzenleSilToolStripMenuItem.Name = "düzenleSilToolStripMenuItem";
             this.düzenleSilToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
             this.düzenleSilToolStripMenuItem.Text = "Düzenle";
+            this.düzenleSilToolStripMenuItem.Click += new System.EventHandler(this.düzenleSilToolStripMenuItem_Click);
             // 
             // silToolStripMenuItem3
             // 

@@ -75,9 +75,9 @@ namespace AutoStockApp
             // btn_AddLocation
             // 
             this.btn_AddLocation.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_AddLocation.Location = new System.Drawing.Point(188, 150);
+            this.btn_AddLocation.Location = new System.Drawing.Point(95, 150);
             this.btn_AddLocation.Name = "btn_AddLocation";
-            this.btn_AddLocation.Size = new System.Drawing.Size(92, 34);
+            this.btn_AddLocation.Size = new System.Drawing.Size(185, 34);
             this.btn_AddLocation.TabIndex = 11;
             this.btn_AddLocation.Text = "Ekle";
             this.btn_AddLocation.UseVisualStyleBackColor = true;

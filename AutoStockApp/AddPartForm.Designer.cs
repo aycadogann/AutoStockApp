@@ -30,19 +30,19 @@ namespace AutoStockApp
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.txt_SupplierPart = new System.Windows.Forms.TextBox();
+            this.txt_AddSupplierPart = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txt_PartNumber = new System.Windows.Forms.TextBox();
+            this.txt_AddPartNumber = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txt_PartName = new System.Windows.Forms.TextBox();
+            this.txt_AddPartName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txt_SalePricePart = new System.Windows.Forms.TextBox();
+            this.txt_AddSalePricePart = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txt_PurchasePricePart = new System.Windows.Forms.TextBox();
+            this.txt_AddPurchasePricePart = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txt_StockQuantityPart = new System.Windows.Forms.TextBox();
+            this.txt_AddStockQuantityPart = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.cmb_LocationPart = new System.Windows.Forms.ComboBox();
+            this.cmb_AddLocationPart = new System.Windows.Forms.ComboBox();
             this.btn_AddPart = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -56,13 +56,13 @@ namespace AutoStockApp
             this.label1.TabIndex = 0;
             this.label1.Text = "Tedarikçi:";
             // 
-            // txt_SupplierPart
+            // txt_AddSupplierPart
             // 
-            this.txt_SupplierPart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_SupplierPart.Location = new System.Drawing.Point(170, 48);
-            this.txt_SupplierPart.Name = "txt_SupplierPart";
-            this.txt_SupplierPart.Size = new System.Drawing.Size(220, 30);
-            this.txt_SupplierPart.TabIndex = 1;
+            this.txt_AddSupplierPart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txt_AddSupplierPart.Location = new System.Drawing.Point(170, 48);
+            this.txt_AddSupplierPart.Name = "txt_AddSupplierPart";
+            this.txt_AddSupplierPart.Size = new System.Drawing.Size(220, 30);
+            this.txt_AddSupplierPart.TabIndex = 1;
             // 
             // label2
             // 
@@ -74,13 +74,13 @@ namespace AutoStockApp
             this.label2.TabIndex = 2;
             this.label2.Text = "Yer:";
             // 
-            // txt_PartNumber
+            // txt_AddPartNumber
             // 
-            this.txt_PartNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_PartNumber.Location = new System.Drawing.Point(170, 159);
-            this.txt_PartNumber.Name = "txt_PartNumber";
-            this.txt_PartNumber.Size = new System.Drawing.Size(220, 30);
-            this.txt_PartNumber.TabIndex = 7;
+            this.txt_AddPartNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txt_AddPartNumber.Location = new System.Drawing.Point(170, 159);
+            this.txt_AddPartNumber.Name = "txt_AddPartNumber";
+            this.txt_AddPartNumber.Size = new System.Drawing.Size(220, 30);
+            this.txt_AddPartNumber.TabIndex = 7;
             // 
             // label3
             // 
@@ -92,13 +92,13 @@ namespace AutoStockApp
             this.label3.TabIndex = 6;
             this.label3.Text = "Parça Numarası:";
             // 
-            // txt_PartName
+            // txt_AddPartName
             // 
-            this.txt_PartName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_PartName.Location = new System.Drawing.Point(170, 123);
-            this.txt_PartName.Name = "txt_PartName";
-            this.txt_PartName.Size = new System.Drawing.Size(220, 30);
-            this.txt_PartName.TabIndex = 5;
+            this.txt_AddPartName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txt_AddPartName.Location = new System.Drawing.Point(170, 123);
+            this.txt_AddPartName.Name = "txt_AddPartName";
+            this.txt_AddPartName.Size = new System.Drawing.Size(220, 30);
+            this.txt_AddPartName.TabIndex = 5;
             // 
             // label4
             // 
@@ -110,13 +110,13 @@ namespace AutoStockApp
             this.label4.TabIndex = 4;
             this.label4.Text = "Parça İsmi:";
             // 
-            // txt_SalePricePart
+            // txt_AddSalePricePart
             // 
-            this.txt_SalePricePart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_SalePricePart.Location = new System.Drawing.Point(170, 267);
-            this.txt_SalePricePart.Name = "txt_SalePricePart";
-            this.txt_SalePricePart.Size = new System.Drawing.Size(220, 30);
-            this.txt_SalePricePart.TabIndex = 13;
+            this.txt_AddSalePricePart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txt_AddSalePricePart.Location = new System.Drawing.Point(170, 267);
+            this.txt_AddSalePricePart.Name = "txt_AddSalePricePart";
+            this.txt_AddSalePricePart.Size = new System.Drawing.Size(220, 30);
+            this.txt_AddSalePricePart.TabIndex = 13;
             // 
             // label5
             // 
@@ -128,13 +128,13 @@ namespace AutoStockApp
             this.label5.TabIndex = 12;
             this.label5.Text = "Satış Fiyatı:";
             // 
-            // txt_PurchasePricePart
+            // txt_AddPurchasePricePart
             // 
-            this.txt_PurchasePricePart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_PurchasePricePart.Location = new System.Drawing.Point(170, 231);
-            this.txt_PurchasePricePart.Name = "txt_PurchasePricePart";
-            this.txt_PurchasePricePart.Size = new System.Drawing.Size(220, 30);
-            this.txt_PurchasePricePart.TabIndex = 11;
+            this.txt_AddPurchasePricePart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txt_AddPurchasePricePart.Location = new System.Drawing.Point(170, 231);
+            this.txt_AddPurchasePricePart.Name = "txt_AddPurchasePricePart";
+            this.txt_AddPurchasePricePart.Size = new System.Drawing.Size(220, 30);
+            this.txt_AddPurchasePricePart.TabIndex = 11;
             // 
             // label6
             // 
@@ -146,13 +146,13 @@ namespace AutoStockApp
             this.label6.TabIndex = 10;
             this.label6.Text = "Alış Fiyatı:";
             // 
-            // txt_StockQuantityPart
+            // txt_AddStockQuantityPart
             // 
-            this.txt_StockQuantityPart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_StockQuantityPart.Location = new System.Drawing.Point(170, 195);
-            this.txt_StockQuantityPart.Name = "txt_StockQuantityPart";
-            this.txt_StockQuantityPart.Size = new System.Drawing.Size(220, 30);
-            this.txt_StockQuantityPart.TabIndex = 9;
+            this.txt_AddStockQuantityPart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txt_AddStockQuantityPart.Location = new System.Drawing.Point(170, 195);
+            this.txt_AddStockQuantityPart.Name = "txt_AddStockQuantityPart";
+            this.txt_AddStockQuantityPart.Size = new System.Drawing.Size(220, 30);
+            this.txt_AddStockQuantityPart.TabIndex = 9;
             // 
             // label7
             // 
@@ -164,14 +164,14 @@ namespace AutoStockApp
             this.label7.TabIndex = 8;
             this.label7.Text = "Stok Miktarı:";
             // 
-            // cmb_LocationPart
+            // cmb_AddLocationPart
             // 
-            this.cmb_LocationPart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cmb_LocationPart.FormattingEnabled = true;
-            this.cmb_LocationPart.Location = new System.Drawing.Point(170, 84);
-            this.cmb_LocationPart.Name = "cmb_LocationPart";
-            this.cmb_LocationPart.Size = new System.Drawing.Size(220, 33);
-            this.cmb_LocationPart.TabIndex = 14;
+            this.cmb_AddLocationPart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmb_AddLocationPart.FormattingEnabled = true;
+            this.cmb_AddLocationPart.Location = new System.Drawing.Point(170, 84);
+            this.cmb_AddLocationPart.Name = "cmb_AddLocationPart";
+            this.cmb_AddLocationPart.Size = new System.Drawing.Size(220, 33);
+            this.cmb_AddLocationPart.TabIndex = 14;
             // 
             // btn_AddPart
             // 
@@ -182,26 +182,28 @@ namespace AutoStockApp
             this.btn_AddPart.TabIndex = 15;
             this.btn_AddPart.Text = "Ekle";
             this.btn_AddPart.UseVisualStyleBackColor = true;
+            this.btn_AddPart.Click += new System.EventHandler(this.btn_AddPart_Click);
             // 
             // frm_AddPartForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(436, 440);
             this.Controls.Add(this.btn_AddPart);
-            this.Controls.Add(this.cmb_LocationPart);
-            this.Controls.Add(this.txt_SalePricePart);
+            this.Controls.Add(this.cmb_AddLocationPart);
+            this.Controls.Add(this.txt_AddSalePricePart);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txt_PurchasePricePart);
+            this.Controls.Add(this.txt_AddPurchasePricePart);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.txt_StockQuantityPart);
+            this.Controls.Add(this.txt_AddStockQuantityPart);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.txt_PartNumber);
+            this.Controls.Add(this.txt_AddPartNumber);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txt_PartName);
+            this.Controls.Add(this.txt_AddPartName);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txt_SupplierPart);
+            this.Controls.Add(this.txt_AddSupplierPart);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frm_AddPartForm";
@@ -214,19 +216,19 @@ namespace AutoStockApp
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txt_SupplierPart;
+        private System.Windows.Forms.TextBox txt_AddSupplierPart;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txt_PartNumber;
+        private System.Windows.Forms.TextBox txt_AddPartNumber;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txt_PartName;
+        private System.Windows.Forms.TextBox txt_AddPartName;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txt_SalePricePart;
+        private System.Windows.Forms.TextBox txt_AddSalePricePart;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txt_PurchasePricePart;
+        private System.Windows.Forms.TextBox txt_AddPurchasePricePart;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txt_StockQuantityPart;
+        private System.Windows.Forms.TextBox txt_AddStockQuantityPart;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox cmb_LocationPart;
+        private System.Windows.Forms.ComboBox cmb_AddLocationPart;
         private System.Windows.Forms.Button btn_AddPart;
     }
 }

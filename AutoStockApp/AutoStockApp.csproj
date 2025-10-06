@@ -185,6 +185,12 @@
     <Compile Include="UpdateEmployeeForm.Designer.cs">
       <DependentUpon>UpdateEmployeeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UpdatePartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdatePartForm.Designer.cs">
+      <DependentUpon>UpdatePartForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpdateVehicleForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -247,6 +253,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateEmployeeForm.resx">
       <DependentUpon>UpdateEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdatePartForm.resx">
+      <DependentUpon>UpdatePartForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateVehicleForm.resx">
       <DependentUpon>UpdateVehicleForm.cs</DependentUpon>

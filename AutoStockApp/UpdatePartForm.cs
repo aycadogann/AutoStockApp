@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace AutoStockApp
 {
-    public partial class frm_AddPartForm : Form
+    public partial class frm_UpdatePartForm : Form
     {
-        public frm_AddPartForm()
+        public frm_UpdatePartForm()
         {
             InitializeComponent();
-        }
-
-        private void btn_AddPart_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

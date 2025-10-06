@@ -122,5 +122,12 @@ namespace AutoStockApp
             addPartForm.MdiParent = this;
             addPartForm.Show();
         }
+
+        private void düzenleSilToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_UpdatePartForm updatePartForm = new frm_UpdatePartForm();
+            updatePartForm.MdiParent = this;
+            updatePartForm.Show();
+        }
     }
 }
